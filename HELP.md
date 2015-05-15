@@ -5,7 +5,6 @@ This serves as a tutorial to help members of the SimpleLaw team set up an approp
 
 ### Table of Contents
 
-0. [Create a GitHub Account](#0)
 1. [Set up GitHub on your PC](#1)
 2. [Clone the SimpleLawApp Repository](#2)
 3. [Install Meteor](#3)
