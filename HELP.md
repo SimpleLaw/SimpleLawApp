@@ -65,13 +65,13 @@ You are now ready to start working! Make sure to be careful and diligent; being 
 
 ### Tutorials
 
-[HTML & CSS](http://www.codecademy.com/en/tracks/web)
-[Javascript](http://www.codecademy.com/en/tracks/javascript)
-[jQuery](http://www.codecademy.com/en/tracks/jquery)
-[Meteor](https://www.meteor.com/try)
+* [HTML & CSS](http://www.codecademy.com/en/tracks/web)
+* [Javascript](http://www.codecademy.com/en/tracks/javascript)
+* [jQuery](http://www.codecademy.com/en/tracks/jquery)
+* [Meteor](https://www.meteor.com/try)
 
 ### Reference
 
-[HTML, CSS, Javascript, jQuery](http://www.w3schools.com/)
-[Meteor](https://docs.meteor.com/)
-[GitHub](https://help.github.com/)
+* [HTML, CSS, Javascript, jQuery](http://www.w3schools.com/)
+* [Meteor](https://docs.meteor.com/)
+* [GitHub](https://help.github.com/)
