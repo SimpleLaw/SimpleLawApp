@@ -35,6 +35,8 @@ While you could edit source code in your PC`s native text editor, you should use
 
 Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp repository directory. If you don`t know how to do this, here are some basic terminal navigation commands:
 
+*Remember that the terms "directory" and "folder" are interchangeable.*
+
 * `pwd` (Mac/Linux) - Display current directory
 * `cd` (Windows) - Display current directory
 * `cd someSubdirectory` - Move into subdirectory
@@ -43,3 +45,11 @@ Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp r
 * `dir` (Windows) - List files/subdirectories in current directory
 
 Once you are in the Simple_Law folder in the SimpleLawApp repository directory, execute `meteor`.
+
+## 6. Using GitHub
+
+GitHub allows us to effectively and seamlessly collaborate, and proper usage is essential for smooth development. There are two actions, among others, that you will be performing regularly.
+
+The first is sync, which in the GitHub desktop clients can be found in the upper right corner. GitHub stores the most recent version of our code in the cloud, and in most cases it is imperative that you have the most recent version of the code on your computer, so you should sync often in order to insure that you have the most recent code.
+
+The second is commit, which can also be found in the GitHub desktop client. After changes have been made to the code on your computer, committing updates the code in the cloud so that everyone can recieve the changes that you made. GitHub automatically checks for conflicts between your code and the code in the cloud so that things go smoothly. It is important that when you have made changes to the source code that are **complete and free of bugs**, you commit your changes. Be sure to sync after committing so that your commit is merged with the code in the cloud.
