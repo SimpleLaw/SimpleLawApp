@@ -3,6 +3,21 @@
 
 This serves as a tutorial to help members of the SimpleLaw team set up an appropriate development environment. It is not written with anyone else in mind. **Be sure to follow this guide carefully and mindfully.** If you have any questions feel free to ask me.
 
+### Table of Contents
+
+0. [Create a GitHub Account](#0)
+1. Set up GitHub on your PC
+2. Clone the SimpleLawApp Repository
+3. Install Meteor
+4. Install a Good IDE/Editor
+5. Start the Meteor Server
+6. Using GitHub
+7. Get Working!
+8. Important Things to Know Before Working
+  * Tutorials
+  * Reference
+
+<a name="0"></a>
 ## 0. Create a GitHub Account
 
 If you don't have one already, [create a GitHub account](https://github.com/join). You must then tell me your username so that I can grant you access to the SimpleLawApp repository. Be sure to accept the request to join SimpleLaw.
