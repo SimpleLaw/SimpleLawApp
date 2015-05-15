@@ -4,7 +4,7 @@ This serves as a tutorial to help members of the SimpleLaw team set up an approp
 
 ## 0. Create a GitHub Account
 
-If you don't have one already, [create a GitHub account](https://github.com/join). You must then tell me (Matthew Huggins) your username so that I can grant you access to the SimpleLawApp repository. Be sure to accept the request to join SimpleLaw.
+If you don`t have one already, [create a GitHub account](https://github.com/join). You must then tell me (Matthew Huggins) your username so that I can grant you access to the SimpleLawApp repository. Be sure to accept the request to join SimpleLaw.
 
 ## 1. Set up GitHub on your PC
 
@@ -12,19 +12,19 @@ We will be using [GitHub](https://github.com/) to organize our collaborative wor
 
 ## 2. Clone the SimpleLawApp Repository
 
-If you have been added to the SimpleLaw team (i.e. you've given me your username and accepted the request to join), you will be able to start working.
+If you have been added to the SimpleLaw team (i.e. you`ve given me your username and accepted the request to join), you will be able to start working.
 
-First, you will need to clone the SimpleLawApp repository. Either click on the "Clone in Desktop" link on the [repository page](https://github.com/SimpleLaw/SimpleLawApp), or in your GitHub desktop application click on the plus sign in the top left corner, choose clone and then select the SimpleLawApp repository. You will be able to choose where in your machine's filesystem the repository is stored.
+First, you will need to clone the SimpleLawApp repository. Either click on the "Clone in Desktop" link on the [repository page](https://github.com/SimpleLaw/SimpleLawApp), or in your GitHub desktop application click on the plus sign in the top left corner, choose clone and then select the SimpleLawApp repository. You will be able to choose where in your machine`s filesystem the repository is stored.
 
 ## 3. Install Meteor
 
 Meteor is an open-source web application development platform which allows us to quickly and cleanly build the new SimpleLaw. If you are using a Windows machine, [download the installer](https://install.meteor.com/windows). If you use a Mac or Linux machine, open the Terminal and execute the following command:
 
-'curl https://install.meteor.com/ | sh'
+`curl https://install.meteor.com/ | sh`
 
 ## 4. Install a Good IDE/Editor
 
-While you could edit source code in your PC's native text editor, you should use something better. There are many options, but here are a few I would recommend:
+While you could edit source code in your PC`s native text editor, you should use something better. There are many options, but here are a few I would recommend:
 
 * [Atom](http://atom.io/) (My choice)
 * [Sublime](http://www.sublimetext.com/)
@@ -33,13 +33,13 @@ While you could edit source code in your PC's native text editor, you should use
 
 ## 5. Start the Meteor Server
 
-Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp repository directory. If you don't know how to do this, here are some basic terminal navigation commands:
+Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp repository directory. If you don`t know how to do this, here are some basic terminal navigation commands:
 
-* 'pwd' (Mac/Linux) - Display current directory
-* 'cd' (Windows) - Display current directory
-* 'cd someSubdirectory' - Move into subdirectory
-* 'cd ..' - Move up out of subdirectory
-* 'ls' (Mac/Linux) - List files/subdirectories in current directory
-* 'dir' (Windows) - List files/subdirectories in current directory
+* `pwd` (Mac/Linux) - Display current directory
+* `cd` (Windows) - Display current directory
+* `cd someSubdirectory` - Move into subdirectory
+* `cd ..` - Move up out of subdirectory
+* `ls` (Mac/Linux) - List files/subdirectories in current directory
+* `dir` (Windows) - List files/subdirectories in current directory
 
-Once you are in the Simple_Law folder in the SimpleLawApp repository directory, execute 'meteor'.
+Once you are in the Simple_Law folder in the SimpleLawApp repository directory, execute `meteor`.
