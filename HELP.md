@@ -33,4 +33,13 @@ While you could edit source code in your PC's native text editor, you should use
 
 ## 5. Start the Meteor Server
 
-Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp repository directory.
+Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp repository directory. If you don't know how to do this, here are some basic terminal navigation commands:
+
+* 'pwd' (Mac/Linux) - Display current directory
+* 'cd' (Windows) - Display current directory
+* 'cd someSubdirectory' - Move into subdirectory
+* 'cd ..' - Move up out of subdirectory
+* 'ls' (Mac/Linux) - List files/subdirectories in current directory
+* 'dir' (Windows) - List files/subdirectories in current directory
+
+Once you are in the Simple_Law folder in the SimpleLawApp repository directory, execute 'meteor'.
