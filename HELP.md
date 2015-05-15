@@ -1,10 +1,11 @@
-# How to Set Up Workspace for Development
+# How to Set Up a Workspace for SimpleLaw Development
+### By [Matthew Huggins](https://github.com/mdhuggins)
 
-This serves as a tutorial to help members of the SimpleLaw team set up an appropriate development environment. It is not written with anyone else in mind.
+This serves as a tutorial to help members of the SimpleLaw team set up an appropriate development environment. It is not written with anyone else in mind. **Be sure to follow this guide carefully and mindfully.** If you have any questions feel free to ask me.
 
 ## 0. Create a GitHub Account
 
-If you don`t have one already, [create a GitHub account](https://github.com/join). You must then tell me (Matthew Huggins) your username so that I can grant you access to the SimpleLawApp repository. Be sure to accept the request to join SimpleLaw.
+If you don`t have one already, [create a GitHub account](https://github.com/join). You must then tell me your username so that I can grant you access to the SimpleLawApp repository. Be sure to accept the request to join SimpleLaw.
 
 ## 1. Set up GitHub on your PC
 
@@ -50,6 +51,10 @@ Once you are in the Simple_Law folder in the SimpleLawApp repository directory, 
 
 GitHub allows us to effectively and seamlessly collaborate, and proper usage is essential for smooth development. There are two actions, among others, that you will be performing regularly.
 
-The first is sync, which in the GitHub desktop clients can be found in the upper right corner. GitHub stores the most recent version of our code in the cloud, and in most cases it is imperative that you have the most recent version of the code on your computer, so you should sync often in order to insure that you have the most recent code.
+The first is sync, which in the GitHub desktop clients can be found in the upper right corner. GitHub stores the most recent version of our code in the cloud, and in most cases it is imperative that you have the most recent version of the code on your computer. Syncing insures that you have the most recent version of the source code, so **you should sync often**.
 
-The second is commit, which can also be found in the GitHub desktop client. After changes have been made to the code on your computer, committing updates the code in the cloud so that everyone can recieve the changes that you made. GitHub automatically checks for conflicts between your code and the code in the cloud so that things go smoothly. It is important that when you have made changes to the source code that are **complete and free of bugs**, you commit your changes. Be sure to sync after committing so that your commit is merged with the code in the cloud.
+The second is commit, which can also be found in the GitHub desktop client. After changes have been made to the code on your computer, committing updates the code in the cloud so that everyone can recieve the changes that you made. GitHub automatically checks for conflicts between your code and the code in the cloud so that things go smoothly. It is important that, **when you have made changes to the source code that are complete and free of bugs, you commit your changes**. Be sure to sync after committing so that your commit is merged with the code in the cloud.
+
+## 7. Get Working!
+
+You are now ready to start working! Make sure to be careful and diligent; being meticulous will save us from many issues in the future.
