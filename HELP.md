@@ -5,7 +5,7 @@ This serves as a tutorial to help members of the SimpleLaw team set up an approp
 
 ## 0. Create a GitHub Account
 
-If you don`t have one already, [create a GitHub account](https://github.com/join). You must then tell me your username so that I can grant you access to the SimpleLawApp repository. Be sure to accept the request to join SimpleLaw.
+If you don't have one already, [create a GitHub account](https://github.com/join). You must then tell me your username so that I can grant you access to the SimpleLawApp repository. Be sure to accept the request to join SimpleLaw.
 
 ## 1. Set up GitHub on your PC
 
@@ -13,9 +13,9 @@ We will be using [GitHub](https://github.com/) to organize our collaborative wor
 
 ## 2. Clone the SimpleLawApp Repository
 
-If you have been added to the SimpleLaw team (i.e. you`ve given me your username and accepted the request to join), you will be able to start working.
+If you have been added to the SimpleLaw team (i.e. you've given me your username and accepted the request to join), you will be able to start working.
 
-First, you will need to clone the SimpleLawApp repository. Either click on the "Clone in Desktop" link on the [repository page](https://github.com/SimpleLaw/SimpleLawApp), or in your GitHub desktop application click on the plus sign in the top left corner, choose clone and then select the SimpleLawApp repository. You will be able to choose where in your machine`s filesystem the repository is stored.
+First, you will need to clone the SimpleLawApp repository. Either click on the "Clone in Desktop" link on the [repository page](https://github.com/SimpleLaw/SimpleLawApp), or in your GitHub desktop application click on the plus sign in the top left corner, choose clone and then select the SimpleLawApp repository. You will be able to choose where in your machine's filesystem the repository is stored.
 
 ## 3. Install Meteor
 
@@ -25,7 +25,7 @@ Meteor is an open-source web application development platform which allows us to
 
 ## 4. Install a Good IDE/Editor
 
-While you could edit source code in your PC`s native text editor, you should use something better. There are many options, but here are a few I would recommend:
+While you could edit source code in your PC's native text editor, you should use something better. There are many options, but here are a few I would recommend:
 
 * [Atom](http://atom.io/) (My choice)
 * [Sublime](http://www.sublimetext.com/)
@@ -34,7 +34,7 @@ While you could edit source code in your PC`s native text editor, you should use
 
 ## 5. Start the Meteor Server
 
-Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp repository directory. If you don`t know how to do this, here are some basic terminal navigation commands:
+Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp repository directory. If you don't know how to do this, here are some basic terminal navigation commands:
 
 *Remember that the terms "directory" and "folder" are interchangeable.*
 
@@ -58,3 +58,20 @@ The second is commit, which can also be found in the GitHub desktop client. Afte
 ## 7. Get Working!
 
 You are now ready to start working! Make sure to be careful and diligent; being meticulous will save us from many issues in the future.
+
+## 8. Important Things to Know Before Working
+
+**It is of highest importance that you are familiar with the following, lest our beautiful site burn.**
+
+### Tutorials
+
+[HTML & CSS](http://www.codecademy.com/en/tracks/web)
+[Javascript](http://www.codecademy.com/en/tracks/javascript)
+[jQuery](http://www.codecademy.com/en/tracks/jquery)
+[Meteor](https://www.meteor.com/try)
+
+### Reference
+
+[HTML, CSS, Javascript, jQuery](http://www.w3schools.com/)
+[Meteor](https://docs.meteor.com/)
+[GitHub](https://help.github.com/)
