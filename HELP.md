@@ -6,38 +6,42 @@ This serves as a tutorial to help members of the SimpleLaw team set up an approp
 ### Table of Contents
 
 0. [Create a GitHub Account](#0)
-1. Set up GitHub on your PC
-2. Clone the SimpleLawApp Repository
-3. Install Meteor
-4. Install a Good IDE/Editor
-5. Start the Meteor Server
-6. Using GitHub
-7. Get Working!
-8. Important Things to Know Before Working
-  * Tutorials
-  * Reference
+1. [Set up GitHub on your PC](#1)
+2. [Clone the SimpleLawApp Repository](#2)
+3. [Install Meteor](#3)
+4. [Install a Good IDE/Editor](#4)
+5. [Start the Meteor Server](#5)
+6. [Using GitHub](#6)
+7. [Get Working!](#7)
+8. [Important Things to Know Before Working](#8)
+  * [Tutorials](#8a)
+  * [Reference](#8b)
 
 <a name="0"></a>
 ## 0. Create a GitHub Account
 
 If you don't have one already, [create a GitHub account](https://github.com/join). You must then tell me your username so that I can grant you access to the SimpleLawApp repository. Be sure to accept the request to join SimpleLaw.
 
+<a name="1"></a>
 ## 1. Set up GitHub on your PC
 
 We will be using [GitHub](https://github.com/) to organize our collaborative work on the new version of SimpleLaw.org. If you are very comfortable using the command line, or work on a Linux machine, you can [install the command line tools](https://help.github.com/articles/set-up-git/). *Be aware that this tutorial will not cover using the command line tools.* If you are using a Windows or Mac machine, **I would highly recommend using either [GitHub for Mac](https://mac.github.com/) or [GitHub for Windows](https://windows.github.com/)**. These are GUI-based clients that make things quite easy.
 
+<a name="2"></a>
 ## 2. Clone the SimpleLawApp Repository
 
 If you have been added to the SimpleLaw team (i.e. you've given me your username and accepted the request to join), you will be able to start working.
 
 First, you will need to clone the SimpleLawApp repository. Either click on the "Clone in Desktop" link on the [repository page](https://github.com/SimpleLaw/SimpleLawApp), or in your GitHub desktop application click on the plus sign in the top left corner, choose clone and then select the SimpleLawApp repository. You will be able to choose where in your machine's filesystem the repository is stored.
 
+<a name="3"></a>
 ## 3. Install Meteor
 
 Meteor is an open-source web application development platform which allows us to quickly and cleanly build the new SimpleLaw. If you are using a Windows machine, [download the installer](https://install.meteor.com/windows). If you use a Mac or Linux machine, open the Terminal and execute the following command:
 
 `curl https://install.meteor.com/ | sh`
 
+<a name="4"></a>
 ## 4. Install a Good IDE/Editor
 
 While you could edit source code in your PC's native text editor, you should use something better. There are many options, but here are a few I would recommend:
@@ -47,6 +51,7 @@ While you could edit source code in your PC's native text editor, you should use
 * [Vim](http://www.vim.org/)
 * [Xcode](https://developer.apple.com/xcode/) (Mac Only)
 
+<a name="5"></a>
 ## 5. Start the Meteor Server
 
 Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp repository directory. If you don't know how to do this, here are some basic terminal navigation commands:
@@ -62,6 +67,7 @@ Open up the Terminal and navigate to the Simple_Law folder in the SimpleLawApp r
 
 Once you are in the Simple_Law folder in the SimpleLawApp repository directory, execute `meteor`.
 
+<a name="6"></a>
 ## 6. Using GitHub
 
 GitHub allows us to effectively and seamlessly collaborate, and proper usage is essential for smooth development. There are two actions, among others, that you will be performing regularly.
@@ -70,14 +76,17 @@ The first is sync, which in the GitHub desktop clients can be found in the upper
 
 The second is commit, which can also be found in the GitHub desktop client. After changes have been made to the code on your computer, committing updates the code in the cloud so that everyone can recieve the changes that you made. GitHub automatically checks for conflicts between your code and the code in the cloud so that things go smoothly. It is important that, **when you have made changes to the source code that are complete and free of bugs, you commit your changes**. Be sure to sync after committing so that your commit is merged with the code in the cloud.
 
+<a name="7"></a>
 ## 7. Get Working!
 
 You are now ready to start working! Make sure to be careful and diligent; being meticulous will save us from many issues in the future.
 
+<a name="8"></a>
 ## 8. Important Things to Know Before Working
 
 **It is of highest importance that you are familiar with the following, lest our beautiful site burn.**
 
+<a name="8a"></a>
 ### Tutorials
 
 * [HTML & CSS](http://www.codecademy.com/en/tracks/web)
@@ -85,6 +94,7 @@ You are now ready to start working! Make sure to be careful and diligent; being 
 * [jQuery](http://www.codecademy.com/en/tracks/jquery)
 * [Meteor](https://www.meteor.com/try)
 
+<a name="8b"></a>
 ### Reference
 
 * [HTML, CSS, Javascript, jQuery](http://www.w3schools.com/)
