@@ -57,14 +57,14 @@ header {
 
 #nav li {
   display: inline-block;
-  margin: 0 0.6em;
+  margin: 0 0.8em;
   list-style: none;
 }
 
 #nav li a {
     text-decoration: none;
     color: #2c3e50;
-
+    font-size: 1.2em;
     border-bottom: 1.5px solid transparent;
     -webkit-transition: border .25s ease-out;
     -moz-transition: border .25s ease-out;
@@ -78,6 +78,10 @@ header {
 
 #nav li a:hover {
   border-color: #008FBA !important;
+}
+
+#nav li #nav-about {
+  margin: 0 1.5em;
 }
 
 #map-container {
