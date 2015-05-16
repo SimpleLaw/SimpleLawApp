@@ -174,16 +174,14 @@ if (Meteor.isClient) {
 
     },
     // Show advanced search fields
-    "click #advanced-search": function (event) {
-      $(event.target).hide();
+    "click #advanced-search": function () {
+      $("#advanced-search").hide();
       $("#choose-title").show();
       $("#choose-id").show();
       $("#choose-date").show();
-
     }
 
   });
-
 
   Tracker.autorun(function () {
     // Admin Panel
@@ -198,7 +196,7 @@ if (Meteor.isClient) {
     refreshResultSelection();
 
     // Admin panel if already logged  c
-     
+
     if(Meteor.userId() === "yv94W2WdR6knYLgEf" /* If you are reading this, you may be up to no good. Please be respectful, the purpose of this site is to help people. */)
       $("#admin-panel").css({"display": "block"});
 
