@@ -176,9 +176,9 @@ if (Meteor.isClient) {
     // Show advanced search fields
     "click #advanced-search": function () {
       $("#advanced-search").hide();
-      $("#choose-title").show();
-      $("#choose-id").show();
-      $("#choose-date").show();
+      $("#choose-title").fadeIn(300);
+      $("#choose-id").fadeIn(300);
+      $("#choose-date").fadeIn(300);
     }
 
   });
