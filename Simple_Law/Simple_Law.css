@@ -132,7 +132,24 @@ header {
   text-shadow: 0px 0px 0px black, 1px 0px 0px black;
 }
 
+form {
+  height: 11.5px;
+  padding-bottom: 5px;
+  vertical-align: middle;
+}
+
+#choose-state {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#choose-category {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 form input {
+  vertical-align: middle;
   height: 11.5px;
 }
 #about {
