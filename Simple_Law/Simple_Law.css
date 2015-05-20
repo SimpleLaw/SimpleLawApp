@@ -134,23 +134,25 @@ header {
 form {
   height: 11.5px;
   padding-bottom: 5px;
-  vertical-align: middle;
 }
 
 #choose-state {
   margin-top: 5px;
   margin-bottom: 5px;
+  vertical-align: middle;
 }
 
 #choose-category {
   margin-top: 5px;
   margin-bottom: 5px;
+  vertical-align: middle;
 }
 
 form input {
   vertical-align: middle;
   height: 11.5px;
 }
+
 #about {
   height: 550px;
 
@@ -225,7 +227,7 @@ footer {
 }
 
 #filters {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 #results-divider {
