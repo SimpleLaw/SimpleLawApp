@@ -57,7 +57,7 @@ header {
 
 #nav li {
   display: inline-block;
-  margin: 0 0.8em;
+  margin: 0 0;
   list-style: none;
 }
 
