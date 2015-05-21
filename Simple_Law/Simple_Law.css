@@ -22,21 +22,19 @@ header {
   box-shadow:         0 0 4px rgba(0,53,69,0.25);
 }
 
-#logo {
-  height: 90px;
-  width: auto;
-  position: absolute;
-}
-
 #heading {
-  /*margin-left: 100px;*/
   display: inline-block;
   text-decoration: none;
   padding-left: 60px;
   cursor: default;
   position: relative;
   top: -9px;
+}
 
+#simpleLogo {
+  height: 36px;
+  position: relative;
+  top: 9px;
 }
 
 #title {
@@ -293,19 +291,9 @@ footer {
 }
 */
 
-
 strong {
   color: #008FBA;
 }
-
-
-#simpleLogo {
-  height: 36px;
-  position: relative;
-  top: 9px;
-
-}
-
 
 /* FADEIN */
 
