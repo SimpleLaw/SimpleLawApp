@@ -23,7 +23,13 @@ header {
 }
 
 #logo {
-  margin: 0;
+  height: 90px;
+  width: auto;
+  position: absolute;
+}
+
+#heading {
+  margin-left: 100px;
   display: inline-block;
   text-decoration: none;
   padding-left: 60px;
