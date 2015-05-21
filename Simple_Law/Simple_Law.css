@@ -30,6 +30,14 @@ header {
   cursor: default;
 }
 
+#title {
+  color: #008FBA;
+}
+
+#title-suffix {
+  color: #BFBFBF;
+}
+
 .heading-text {
   font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.75em;
@@ -252,6 +260,7 @@ footer {
   background: rgba(0,143,186,0.25);
 }
 
+/*
 #login-dropdown-list {
   top: -162px;
   left: -148px;
@@ -266,4 +275,10 @@ footer {
   display: none;
   margin-left: 60px;
   margin-right: 60px;
+}
+*/
+
+
+strong {
+  color: #008FBA;
 }
