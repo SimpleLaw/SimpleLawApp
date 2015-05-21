@@ -32,9 +32,28 @@ header {
 }
 
 #simpleLogo {
-  height: 36px;
+  display: inline-block;
   position: relative;
   top: 9px;
+  height: 36px;
+  width: 36px;
+	background: url("simpleLogo.png") no-repeat;
+  background-size: contain;
+  cursor: default;
+}
+
+#simpleLogo span {
+  display: inline-block;
+  height: 36px;
+  width: 36px;
+	background: url("sheen.png") -10px -10px no-repeat;
+	transition-property: all;
+	transition-duration: .5s;
+  overflow: hidden;
+  cursor: default;
+}
+#simpleLogo:hover span {
+  background-position: -80px -80px;
 }
 
 #title {
