@@ -37,7 +37,7 @@ header {
   top: 9px;
   height: 36px;
   width: 36px;
-	background: url("simpleLogo.png") no-repeat;
+	background: url("altSimpleLogo.png") no-repeat;
   background-size: contain;
   cursor: default;
 }
