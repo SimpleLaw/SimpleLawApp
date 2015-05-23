@@ -13,7 +13,7 @@ body {
 
 header {
   margin: 0;
-
+  
   padding-top: 25px;
   padding-bottom: 25px;
 
@@ -28,15 +28,16 @@ header {
   padding-left: 60px;
   cursor: default;
   position: relative;
-  top: -9px;
+  height: 40px;
+  vertical-align: top;
 }
 
 #simpleLogo {
   display: inline-block;
   position: relative;
-  top: 9px;
-  height: 36px;
-  width: 36px;
+  height: 40px;
+  width: 40px;
+  vertical-align: bottom;
 	background: url("altSimpleLogo.png") no-repeat;
   background-size: contain;
   cursor: default;
@@ -44,8 +45,9 @@ header {
 
 #simpleLogo span {
   display: inline-block;
-  height: 36px;
-  width: 36px;
+  height: 40px;
+  width: 40px;
+  vertical-align: bottom;
 	background: url("sheen.png") -10px -10px no-repeat;
 	transition-property: all;
 	transition-duration: .5s;
@@ -58,10 +60,16 @@ header {
 
 #title {
   color: #008FBA;
+  line-height: 40px;
+  height: 40px;
+  vertical-align: bottom;
 }
 
 #title-suffix {
   color: #BFBFBF;
+  line-height: 40px;
+  height: 40px;
+  vertical-align: bottom;
 }
 
 .heading-text {
@@ -93,12 +101,15 @@ header {
   display: inline-block;
   margin: 0 0;
   list-style: none;
+  vertical-align: top;
 }
 
 #nav li a {
     text-decoration: none;
     color: #2c3e50;
     font-size: 1.35em;
+    line-height: 40px;
+    vertical-align: bottom;
     border-bottom: 1.5px solid transparent;
     -webkit-transition: border .25s ease-out;
     -moz-transition: border .25s ease-out;
