@@ -65,10 +65,9 @@ header {
   height: 40px;
   vertical-align: bottom;
   text-transform: capitalize;
-  font-weight:200;
-  letter-spacing: 4px;
+  font-weight: 400;
+  letter-spacing: 3px;
   font-size: 32px;
-
 }
 #title-suffix {
   color: rgba(255, 255, 255, 1);
