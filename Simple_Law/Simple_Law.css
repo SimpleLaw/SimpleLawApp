@@ -36,9 +36,12 @@ header {
 #simpleLogo {
   display: inline-block;
   position: relative;
+  float: left;
   height: 40px;
   width: 40px;
-  vertical-align: bottom;
+  vertical-align: middle;
+  border-radius: 7.7px;
+  overflow: hidden;
 	background: url("altSimpleLogo.png") no-repeat;
   background-size: contain;
   cursor: default;
@@ -46,13 +49,13 @@ header {
 
 #simpleLogo span {
   display: inline-block;
+  position: absolute;
   height: 40px;
   width: 40px;
-  vertical-align: bottom;
+  vertical-align: middle;
 	background: url("sheen.png") 0px 0px no-repeat;
 	transition-property: all;
 	transition-duration: .5s;
-  overflow: hidden;
   cursor: default;
 }
 #simpleLogo:hover span {
@@ -60,22 +63,23 @@ header {
 }
 
 #title {
+  float: left;
+  margin-left: 15px;
   color: rgba(255, 255, 255, 1);
-  line-height: 40px;
-  height: 40px;
-  vertical-align: bottom;
+  line-height: 33px;
+  vertical-align: middle;
   text-transform: capitalize;
   font-weight: 400;
   letter-spacing: 3px;
   font-size: 32px;
 }
-#title-suffix {
+/*#title-suffix {
   color: rgba(255, 255, 255, 1);
   line-height: 40px;
   height: 40px;
   vertical-align: bottom;
   font-size: 14px;
-}
+}*/
 
 .heading-text {
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
@@ -99,7 +103,7 @@ header {
   margin-right: 60px;
   padding: 0;
   float: right;
-  line-height: 40px;
+  line-height: 36px;
 }
 
 #nav li {
@@ -113,9 +117,9 @@ header {
     font-family: 'Microsoft Yi Baiti';
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
-    font-size: 28px;
-    line-height: 40px;
-    vertical-align: bottom;
+    font-size: 36px;
+    line-height: 36px;
+    vertical-align: top;
     border-bottom: 1.5px solid transparent;
     -webkit-transition: border .25s ease-out;
     -moz-transition: border .25s ease-out;
@@ -124,11 +128,11 @@ header {
 }
 
 .active-link {
-  border-color: #008FBA !important;
+  border-color: #00CCFF !important;
 }
 
 #nav li a:hover {
-  border-color: #008FBA !important;
+  border-color: #00CCFF !important;
 }
 
 #nav li #nav-about {
