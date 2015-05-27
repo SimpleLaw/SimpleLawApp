@@ -83,10 +83,13 @@ header {
 
 .heading-text {
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.75em;
   line-height: 40px;
-  font-weight: normal;
   color: #2c3e50;
+}
+
+.heading-subtext {
+  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-weight: normal;
 }
 
 .heading-text-small {
