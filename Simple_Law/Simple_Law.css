@@ -71,7 +71,7 @@ header {
   text-transform: capitalize;
   font-weight: 400;
   letter-spacing: 3px;
-  font-size: 32px;
+  font-size: 36px;
 }
 /*#title-suffix {
   color: rgba(255, 255, 255, 1);
@@ -83,13 +83,16 @@ header {
 
 .heading-text {
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.65em;
   line-height: 40px;
+  font-weight: bolder;
   color: #2c3e50;
 }
 
 .heading-subtext {
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-weight: normal;
+  font-size: 1.30em;
+  font-weight: 600;
 }
 
 .heading-text-small {
