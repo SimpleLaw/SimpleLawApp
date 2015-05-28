@@ -224,7 +224,7 @@ form input {
 }
 
 #about {
-  height: 550px;
+  height: #team;
 
   -moz-box-shadow:    0 0 4px rgba(0,53,69,0.25);
   -webkit-box-shadow: 0 0 4px rgba(0,53,69,0.25);
@@ -255,6 +255,7 @@ form input {
 
 #team {
   line-height: 30px;
+  height: 170px;
 }
 
 .semi-bold {
@@ -263,8 +264,8 @@ form input {
 
 footer {
   margin-left: 60px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: -7px;
+  margin-bottom: 6px;
 }
 
 #admin-login {
