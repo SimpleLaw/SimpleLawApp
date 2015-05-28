@@ -103,7 +103,6 @@ header {
   color: #2c3e50;
 }
 
-
 #nav {
   list-style-type: none;
   margin: 0;
@@ -147,7 +146,7 @@ header {
 }
 
 #map-container {
-  height: 550px;
+  height: 600px;
 }
 
 #map-background {
@@ -167,12 +166,12 @@ header {
 #map {
   height: 100%;
   width: 100%;
-
-  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
+/*
+  -webkit-animation: fadein 1s;
+       -moz-animation: fadein 1s;
+        -ms-animation: fadein 1s;
+         -o-animation: fadein 1s;
+            animation: fadein 1s; */
 }
 
 #map path:hover {
@@ -183,7 +182,35 @@ header {
   fill: #008FBA;
 }
 
-.page-divider-text {
+#initial-block-container {
+  position: relative;
+  top: 380px;
+  left: 20px;
+  height: auto;
+  width: 100%;
+}
+
+#initial-block {
+  position: absolute;
+  height: 90px;
+  width: 30%;
+  border-radius: 13px;
+  background-color: rgba(6, 20, 92,0.90);
+  top:0;
+  left: 0;
+  right: 0;
+  bottom: 200px;
+  margin: auto;
+  animation: fadeOut 2s;
+  animation-delay: 2s;
+  -webkit-animation: fadeOut 2s;
+  -webkit-animation-delay: 2s;
+
+}
+
+
+
+.initial-block-text {
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 3.05em;
   line-height: 40px;
@@ -191,14 +218,17 @@ header {
   color: #FFFFFF;
   text-align: center;
   position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 6px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 
 .page-divider {
-  height: 90px;
+  height: 1px;
   width: 100%;
-  background-color: rgba(6, 20, 92,0.90);
+  background-color: rgba(0,53,69,0.5);
   margin-left: auto;
   margin-right: auto;
 }
@@ -401,4 +431,15 @@ strong {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+
+@-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes fadeOut{
+    0% {opacity: 1;}
+    100% {opacity: 0;}
 }
