@@ -193,6 +193,8 @@ header {
 #advanced-search #arrow {
   display:inline-block;
   font-size: 1.05em;
+  line-height: 26px;
+  vertical-align: bottom;
   -webkit-text-shadow: 0px 0px 0px black, 1px 0px 0px black;
   -moz-text-shadow: 0px 0px 0px black, 1px 0px 0px black;
   text-shadow: 0px 0px 0px black, 1px 0px 0px black;
