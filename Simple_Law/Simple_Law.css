@@ -188,6 +188,7 @@ header {
   left: 20px;
   height: auto;
   width: 100%;
+  cursor: default;
 }
 
 #initial-block {
@@ -201,11 +202,6 @@ header {
   right: 0;
   bottom: 200px;
   margin: auto;
-  animation: fadeOut 2s;
-  animation-delay: 2s;
-  -webkit-animation: fadeOut 2s;
-  -webkit-animation-delay: 2s;
-
 }
 
 
@@ -431,15 +427,4 @@ strong {
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
-}
-
-
-@-webkit-keyframes fadeOut {
-    0% {opacity: 1;}
-    100% {opacity: 0;}
-}
-
-@keyframes fadeOut{
-    0% {opacity: 1;}
-    100% {opacity: 0;}
 }
