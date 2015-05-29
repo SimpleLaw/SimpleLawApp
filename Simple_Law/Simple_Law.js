@@ -218,6 +218,3 @@ if (Meteor.isServer) {
   });
 
 }
-
-setTimeout(function(){
-  $("#initial-block-container").remove(); }, 1500);

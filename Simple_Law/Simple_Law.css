@@ -183,34 +183,6 @@ header {
   fill: #008FBA;
 }
 
-/*
-#initial-block-container {
-  position: relative;
-  top: 380px;
-  left: 20px;
-  height: auto;
-  width: 100%;
-  cursor: default;
-}
-
-#initial-block {
-  position: absolute;
-  height: 90px;
-  width: 30%;
-  border-radius: 13px;
-  background-color: rgba(6, 20, 92,0.90);
-  top:0;
-  left: 0;
-  right: 0;
-  bottom: 200px;
-  margin: auto;
-}
-
-
-
-.initial-block-text {}
-*/
-
 .page-divider-text {
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 3.05em;
