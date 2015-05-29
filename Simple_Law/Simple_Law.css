@@ -103,6 +103,7 @@ header {
   color: #2c3e50;
 }
 
+
 #nav {
   list-style-type: none;
   margin: 0;
@@ -146,7 +147,7 @@ header {
 }
 
 #map-container {
-  height: 600px;
+  height: 550px;
 }
 
 #map-background {
@@ -166,12 +167,12 @@ header {
 #map {
   height: 100%;
   width: 100%;
-/*
-  -webkit-animation: fadein 1s;
-       -moz-animation: fadein 1s;
-        -ms-animation: fadein 1s;
-         -o-animation: fadein 1s;
-            animation: fadein 1s; */
+
+  -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 1s; /* Firefox < 16 */
+        -ms-animation: fadein 1s; /* Internet Explorer */
+         -o-animation: fadein 1s; /* Opera < 12.1 */
+            animation: fadein 1s;
 }
 
 #map path:hover {
@@ -182,6 +183,7 @@ header {
   fill: #008FBA;
 }
 
+/*
 #initial-block-container {
   position: relative;
   top: 380px;
@@ -206,7 +208,10 @@ header {
 
 
 
-.initial-block-text {
+.initial-block-text {}
+*/
+
+.page-divider-text {
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 3.05em;
   line-height: 40px;
@@ -214,17 +219,14 @@ header {
   color: #FFFFFF;
   text-align: center;
   position: relative;
-  top: 6px;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .page-divider {
-  height: 1px;
+  height: 90px;
   width: 100%;
-  background-color: rgba(0,53,69,0.5);
+  background-color: rgba(6, 20, 92,0.90);
   margin-left: auto;
   margin-right: auto;
 }

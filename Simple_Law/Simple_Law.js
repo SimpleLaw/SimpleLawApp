@@ -206,6 +206,7 @@ if (Meteor.isClient) {
   passwordSignupFields: "USERNAME_ONLY"
   });
 
+
 }
 
 if (Meteor.isServer) {
