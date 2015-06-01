@@ -275,16 +275,28 @@ form input {
 #team {
   line-height: 30px;
   height: 170px;
+  margin-bottom: 0;
 }
 
 .semi-bold {
   font-weight: 600;
 }
 
+#footer-container {
+  position: relative;
+  display:inline-block;
+  height: 30px;
+  width: 100%;
+  background-color: #F2F2F2;
+  box-shadow: 0 0px 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0px 1px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0px 1px rgba(0,0,0,0.5);
+}
+
 footer {
   margin-left: 60px;
-  margin-top: -7px;
-  margin-bottom: 6px;
+  margin-top: 7px;
+  vertical-align: middle;
 }
 
 #admin-login {
