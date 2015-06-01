@@ -20,14 +20,7 @@ header {
   -moz-box-shadow:    0 0 4px rgba(0,53,69,0.25);
   -webkit-box-shadow: 0 0 4px rgba(0,53,69,0.25);
   box-shadow:         0 0 4px rgba(0,53,69,0.25);
-  background: rgb(6,20,92);
-background: -moz-linear-gradient(left,  rgba(6,20,92,1) 0%, rgba(8,26,119,1) 99%);
-background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(6,20,92,1)), color-stop(99%,rgba(8,26,119,1)));
-background: -webkit-linear-gradient(left,  rgba(6,20,92,1) 0%,rgba(8,26,119,1) 99%);
-background: -o-linear-gradient(left,  rgba(6,20,92,1) 0%,rgba(8,26,119,1) 99%);
-background: -ms-linear-gradient(left,  rgba(6,20,92,1) 0%,rgba(8,26,119,1) 99%);
-background: linear-gradient(to right,  rgba(6,20,92,1) 0%,rgba(8,26,119,1) 99%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06145c', endColorstr='#081a77',GradientType=1 );
+  background: rgba(6, 20, 92,0.90);
 }
 
 #heading {
