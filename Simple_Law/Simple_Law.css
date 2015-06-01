@@ -49,7 +49,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#06145c', end
   vertical-align: middle;
   border-radius: 7.7px;
   overflow: hidden;
-	background: url("altSimpleLogo.png") no-repeat;
+	background: url("logo.png") no-repeat;
   background-size: contain;
   cursor: default;
 }

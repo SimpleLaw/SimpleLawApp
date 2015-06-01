@@ -1,6 +1,5 @@
 Laws = new Mongo.Collection("laws");
 
-
 function displaySelectedResult(t) {
   // Retrieve Document
   var law = Laws.findOne({title: t});
