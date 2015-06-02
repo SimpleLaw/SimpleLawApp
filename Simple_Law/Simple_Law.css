@@ -13,15 +13,19 @@ body {
 }
 
 header {
+  position: relative;
+  height: 80px;
   margin: 0;
-
-  padding-top: 25px;
-  padding-bottom: 25px;
 
   -moz-box-shadow:    0 0 4px rgba(0,53,69,0.25);
   -webkit-box-shadow: 0 0 4px rgba(0,53,69,0.25);
   box-shadow:         0 0 4px rgba(0,53,69,0.25);
-  background: rgba(6, 20, 92,0.90);
+  background: #000338;
+}
+
+.header-content {
+  position: relative;
+  height: auto;
 }
 
 #heading {
@@ -31,7 +35,9 @@ header {
   cursor: default;
   position: relative;
   height: 40px;
-  vertical-align: top;
+  top: 21px;
+  vertical-align: middle;
+  padding-top: 0;
 }
 
 #simpleLogo {
@@ -100,17 +106,17 @@ header {
 #nav {
   list-style-type: none;
   margin: 0;
+  padding: 0;
   margin-right: 60px;
   padding: 0;
   float: right;
   line-height: 36px;
+  height: 80px;
 }
 
 #nav li {
   display: inline-block;
-  margin: 0 0;
   list-style: none;
-  vertical-align: top;
 }
 
 #nav li a {
@@ -119,12 +125,32 @@ header {
     color: rgba(255, 255, 255, 1);
     font-size: 36px;
     line-height: 36px;
-    vertical-align: top;
-    border-bottom: 1.5px solid transparent;
     -webkit-transition: border .25s ease-out;
     -moz-transition: border .25s ease-out;
     -o-transition: border .25s ease-out;
     transition: border .25s ease-out;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 19px;
+    width: 100px
+}
+
+#nav-search {
+  display: block;
+  height: 60.9px;
+  text-align: center;
+}
+
+#nav-about {
+  display: block;
+  height: 60.9px;
+  text-align: center;
+}
+
+#nav-contact {
+  display: block;
+  height: 60.9px;
+  text-align: center;
 }
 
 .active-link {
@@ -132,16 +158,44 @@ header {
 }
 
 #nav li a:hover {
-  border-color: #00CCFF !important;
+  background: rgb(0,3,56); /* Old browsers */
+  background: -moz-linear-gradient(top,  rgba(0,3,56,1) 0%, rgba(0,3,56,1) 5%, rgba(0,122,159,1) 95%, rgba(0,122,159,1) 95%, rgba(0,122,159,1) 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,3,56,1)), color-stop(5%,rgba(0,3,56,1)), color-stop(95%,rgba(0,122,159,1)), color-stop(95%,rgba(0,122,159,1)), color-stop(100%,rgba(0,122,159,1))); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  rgba(0,3,56,1) 0%,rgba(0,3,56,1) 5%,rgba(0,122,159,1) 95%,rgba(0,122,159,1) 95%,rgba(0,122,159,1) 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  rgba(0,3,56,1) 0%,rgba(0,3,56,1) 5%,rgba(0,122,159,1) 95%,rgba(0,122,159,1) 95%,rgba(0,122,159,1) 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  rgba(0,3,56,1) 0%,rgba(0,3,56,1) 5%,rgba(0,122,159,1) 95%,rgba(0,122,159,1) 95%,rgba(0,122,159,1) 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  rgba(0,3,56,1) 0%,rgba(0,3,56,1) 5%,rgba(0,122,159,1) 95%,rgba(0,122,159,1) 95%,rgba(0,122,159,1) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000338', endColorstr='#007a9f',GradientType=0 ); /* IE6-9 */
 }
 
-#nav li #nav-about {
-  margin: 0 1.5em;
+.first-divider {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  background-color: #007A9F;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 16px;
+}
+
+.first-divider-text {
+  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.4em;
+  line-height: 40px;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  top: 39%;
+  transform: translateY(-50%);
+  margin: 0;
 }
 
 #map-container {
+  position: relative;
   height: 550px;
   width: 100%;
+  margin-top: -16px;
 }
 
 #map-background {
@@ -152,7 +206,7 @@ header {
   top: 0;
   left: 0;
   z-index: -10;
-  height: 640px;;
+  height: 550px;;
 
 }
 
@@ -175,30 +229,22 @@ header {
   fill: #008FBA;
 }
 
-<<<<<<< HEAD
 #null {
   margin: 0;
 }
 
-.page-divider-text {
-  margin-top: 0;
-  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 3.05em;
-  line-height: 40px;
-  font-weight: 300;
-  color: #FFFFFF;
-  text-align: center;
-  position: relative;
-  top: 44%;
-  transform: translateY(-50%);
-}
-
-=======
->>>>>>> parent of 798491a... Page Divider Redesign
 .page-divider {
   height: 1px;
   width: 100%;
   background-color: rgba(0,53,69,0.5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divider-inside {
+  height: 1px;
+  width: 80%;
+  background-color: #007A9F;
   margin-left: auto;
   margin-right: auto;
 }
