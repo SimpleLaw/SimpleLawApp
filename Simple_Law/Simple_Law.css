@@ -286,6 +286,8 @@ form input {
   height: 30px;
   width: 100%;
   background-color: #F2F2F2;
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.5);
 }
 
