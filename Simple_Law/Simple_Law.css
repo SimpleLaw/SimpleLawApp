@@ -97,7 +97,6 @@ header {
   color: #2c3e50;
 }
 
-
 #nav {
   list-style-type: none;
   margin: 0;
@@ -176,6 +175,7 @@ header {
   fill: #008FBA;
 }
 
+<<<<<<< HEAD
 #null {
   margin: 0;
 }
@@ -193,10 +193,12 @@ header {
   transform: translateY(-50%);
 }
 
+=======
+>>>>>>> parent of 798491a... Page Divider Redesign
 .page-divider {
-  height: 90px;
+  height: 1px;
   width: 100%;
-  background-color: rgba(6, 20, 92,0.90);
+  background-color: rgba(0,53,69,0.5);
   margin-left: auto;
   margin-right: auto;
 }
