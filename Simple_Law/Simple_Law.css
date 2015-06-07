@@ -189,6 +189,7 @@ header {
   top: 39%;
   transform: translateY(-50%);
   margin: 0;
+  cursor: default;
 }
 
 #map-container {
