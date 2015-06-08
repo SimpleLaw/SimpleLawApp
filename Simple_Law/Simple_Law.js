@@ -4,7 +4,7 @@ function displaySelectedResult(t) {
   // Retrieve Document
   var law = Laws.findOne({title: t});
   // Create Content
-  $("#result-details").html("<p><span class='semi-bold'>" + law.title + "</span></p><p>" +law.category+"&nbsp;&nbsp;|&nbsp;&nbsp;"+law.state+"  "+law.id+"</p>"+"<p>Summary goes here.</p><p><a>More Detail</a></p>");
+  $("#result-details").html("<p><span class='semi-bold'>" + law.title + "</span></p><p>" +law.category+"&nbsp;&nbsp;|&nbsp;&nbsp;"+law.state+"  "+law.id+"</p>"+"<p>"+law.text+"</p>");
 
 }
 
