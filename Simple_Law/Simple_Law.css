@@ -31,7 +31,7 @@ header {
 #heading {
   display: inline-block;
   text-decoration: none;
-  padding-left: 60px;
+  padding-left: 50px;
   cursor: default;
   position: relative;
   height: 40px;
@@ -86,9 +86,8 @@ header {
 
 .heading-text {
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.75em;
-  line-height: 40px;
-  font-weight: normal;
+  font-size: 2.25em;
+  font-weight: bold;
   color: #2c3e50;
 }
 
@@ -115,7 +114,7 @@ header {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  margin-right: 60px;
+  margin-right: 50px;
   padding: 0;
   float: right;
   line-height: 36px;
@@ -165,7 +164,6 @@ header {
 .active-link {
   border-color: #00CCFF !important;
 }
-
 
 .first-divider {
   position: relative;
@@ -251,8 +249,8 @@ header {
 
 #results-container {
   height: 550px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
 #advanced-search #arrow {
@@ -298,6 +296,7 @@ form input {
 
 #about h3 {
   margin-top: 0;
+  margin-bottom: 0;
   padding-top: 28px;
   margin-left: 60px;
 }
@@ -312,6 +311,7 @@ form input {
 }
 
 #about p {
+  margin-top: 25px;
   margin-left: 60px;
   margin-right: 60px;
   color: #233140;
@@ -321,6 +321,7 @@ form input {
 #team {
   line-height: 30px;
   height: 170px;
+  margin-top: 25px;
   margin-bottom: 0;
 }
 
@@ -374,10 +375,12 @@ footer {
 
 #results-container h3 {
   margin-bottom: 10px;
+  margin-left: 45px;
 }
 
 #filters {
   margin-bottom: 30px;
+  margin-left: 45px;
 }
 
 #results-divider {
