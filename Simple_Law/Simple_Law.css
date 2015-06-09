@@ -1,6 +1,6 @@
 html {
   height: 100%;
-  min-width: 930px;
+  min-width: 980px;
 }
 
 body {
@@ -9,17 +9,23 @@ body {
 
   margin: 0;
   height: 100%;
+  width: 100%;
 }
 
 header {
+  position: relative;
+  height: 80px;
   margin: 0;
-
-  padding-top: 25px;
-  padding-bottom: 25px;
 
   -moz-box-shadow:    0 0 4px rgba(0,53,69,0.25);
   -webkit-box-shadow: 0 0 4px rgba(0,53,69,0.25);
   box-shadow:         0 0 4px rgba(0,53,69,0.25);
+  background: #000338;
+}
+
+.header-content {
+  position: relative;
+  height: auto;
 }
 
 #heading {
@@ -28,28 +34,35 @@ header {
   padding-left: 60px;
   cursor: default;
   position: relative;
-  top: -9px;
+  height: 40px;
+  top: 21px;
+  vertical-align: middle;
+  padding-top: 0;
 }
 
 #simpleLogo {
   display: inline-block;
   position: relative;
-  top: 9px;
-  height: 36px;
-  width: 36px;
-	background: url("simpleLogo.png") no-repeat;
+  float: left;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+  border-radius: 7.7px;
+  overflow: hidden;
+	background: url("altLogo.png") no-repeat;
   background-size: contain;
   cursor: default;
 }
 
 #simpleLogo span {
   display: inline-block;
-  height: 36px;
-  width: 36px;
-	background: url("sheen.png") -10px -10px no-repeat;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+	background: url("sheen.png") 0px 0px no-repeat;
 	transition-property: all;
 	transition-duration: .5s;
-  overflow: hidden;
   cursor: default;
 }
 #simpleLogo:hover span {
@@ -57,11 +70,17 @@ header {
 }
 
 #title {
-  color: #008FBA;
+  float: left;
+  margin-left: 15px;
+  color: rgba(255, 255, 255, 1);
+  line-height: 33px;
+  vertical-align: middle;
+  font-weight: 400;
+  font-size: 36px;
 }
 
 #title-suffix {
-  color: #BFBFBF;
+  font-weight: 300;
 }
 
 .heading-text {
@@ -70,6 +89,17 @@ header {
   line-height: 40px;
   font-weight: normal;
   color: #2c3e50;
+}
+
+.heading-subtext-bolder {
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+.heading-subtext {
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 .heading-text-small {
@@ -83,43 +113,100 @@ header {
 #nav {
   list-style-type: none;
   margin: 0;
+  padding: 0;
   margin-right: 60px;
   padding: 0;
   float: right;
-  line-height: 40px;
+  line-height: 36px;
+  height: 80px;
+  font-weight: 300;
 }
 
 #nav li {
   display: inline-block;
-  margin: 0 0;
   list-style: none;
 }
 
 #nav li a {
+    font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     text-decoration: none;
-    color: #2c3e50;
-    font-size: 1.35em;
-    border-bottom: 1.5px solid transparent;
+    color: rgba(255, 255, 255, 1);
+    font-size: 36px;
+    line-height: 36px;
     -webkit-transition: border .25s ease-out;
     -moz-transition: border .25s ease-out;
     -o-transition: border .25s ease-out;
     transition: border .25s ease-out;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 19px;
+    width: 100px
+}
+
+#nav-search {
+  display: block;
+  height: 60.9px;
+  text-align: center;
+}
+
+#nav-about {
+  display: block;
+  height: 60.9px;
+  text-align: center;
+}
+
+#nav-contact {
+  display: block;
+  height: 60.9px;
+  text-align: center;
 }
 
 .active-link {
-  border-color: #008FBA !important;
+  border-color: #00CCFF !important;
 }
 
-#nav li a:hover {
-  border-color: #008FBA !important;
+
+.first-divider {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  background-color: #007A9F;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 16px;
 }
 
-#nav li #nav-about {
-  margin: 0 1.5em;
+.first-divider-text {
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.1em;
+  line-height: 40px;
+  font-weight: 300;
+  color: #FFFFFF;
+  text-align: center;
+  position: relative;
+  top: 39%;
+  transform: translateY(-50%);
+  margin: 0;
+  cursor: default;
 }
 
 #map-container {
+  position: relative;
   height: 550px;
+  width: 100%;
+  margin-top: -16px;
+}
+
+#map-background {
+  width: 100%;
+  min-width: 980px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  height: 550px;;
+
 }
 
 #map {
@@ -141,6 +228,10 @@ header {
   fill: #008FBA;
 }
 
+#null {
+  margin: 0;
+}
+
 .page-divider {
   height: 1px;
   width: 100%;
@@ -152,7 +243,7 @@ header {
 .divider-inside {
   height: 1px;
   width: 80%;
-  background-color: #008FBA;
+  background-color: #007A9F;
   margin-left: auto;
   margin-right: auto;
 }
@@ -166,6 +257,8 @@ header {
 #advanced-search #arrow {
   display:inline-block;
   font-size: 1.05em;
+  line-height: 26px;
+  vertical-align: bottom;
   -webkit-text-shadow: 0px 0px 0px black, 1px 0px 0px black;
   -moz-text-shadow: 0px 0px 0px black, 1px 0px 0px black;
   text-shadow: 0px 0px 0px black, 1px 0px 0px black;
@@ -191,10 +284,11 @@ form {
 form input {
   vertical-align: middle;
   height: 11.5px;
+  font-size: 14px;
 }
 
 #about {
-  height: 550px;
+  height: #team;
 
   -moz-box-shadow:    0 0 4px rgba(0,53,69,0.25);
   -webkit-box-shadow: 0 0 4px rgba(0,53,69,0.25);
@@ -220,21 +314,34 @@ form input {
   margin-left: 60px;
   margin-right: 60px;
   color: #233140;
-  font-size: 1.25em;
+  font-size: 1.4em;
 }
 
 #team {
   line-height: 30px;
+  height: 170px;
+  margin-bottom: 0;
 }
 
 .semi-bold {
   font-weight: 600;
 }
 
+#footer-container {
+  position: relative;
+  display:inline-block;
+  height: 30px;
+  width: 100%;
+  background-color: #F2F2F2;
+  box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0 0 1px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.5);
+}
+
 footer {
   margin-left: 60px;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 7px;
+  vertical-align: middle;
 }
 
 #admin-login {
@@ -259,7 +366,9 @@ footer {
 
 #result-details {
   width: 47.5%;
+  height: 420px;
   float: left;
+  overflow-y: scroll;
 }
 
 #results-container h3 {
@@ -291,24 +400,6 @@ footer {
 .selected-result {
   background: rgba(0,143,186,0.25);
 }
-
-/*
-#login-dropdown-list {
-  top: -162px;
-  left: -148px;
-}
-
-#signup-link {
-  display: none;
-}
-
-#admin-panel {
-  height: 550px;
-  display: none;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-*/
 
 strong {
   color: #008FBA;
