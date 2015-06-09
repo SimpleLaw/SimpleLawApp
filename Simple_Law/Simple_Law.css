@@ -73,10 +73,11 @@ header {
   float: left;
   margin-left: 15px;
   color: rgba(255, 255, 255, 1);
+  letter-spacing: 2px;
   line-height: 33px;
   vertical-align: middle;
-  font-weight: 400;
-  font-size: 36px;
+  font-weight: 600;
+  font-size: 38px;
 }
 
 #title-suffix {
@@ -84,7 +85,7 @@ header {
 }
 
 .heading-text {
-  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.75em;
   line-height: 40px;
   font-weight: normal;
@@ -128,7 +129,7 @@ header {
 }
 
 #nav li a {
-    font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
     font-size: 36px;
@@ -177,10 +178,10 @@ header {
 }
 
 .first-divider-text {
-  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 2.1em;
+  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 2.3em;
   line-height: 40px;
-  font-weight: 300;
+  font-weight: 600;
   color: #FFFFFF;
   text-align: center;
   position: relative;
