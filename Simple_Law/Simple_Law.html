@@ -1,6 +1,5 @@
 <head>
-  <title>Simple Law(alpha)</title>
-  <title>Simple Law (alpha)</title>
+  <title>Simple Law (beta)</title>
   <link rel="icon" type="image/png" href="sectionSignBlue.png" />
 </head>
 
@@ -10,19 +9,19 @@
 
       <div id="heading" class="heading-text noselect" href="">
         <a id="simpleLogo"><span></span></a>
-        <span id="title">Simple Law</span>
+        <span id="title">Simple Law (beta)</span>
       </div>
 
       <ul id="nav">
-        <li><a href="#results-container" id="nav-search" class="nav-link noselect">Search</a></li
-        ><li><a href="#about" id="nav-about" class="nav-link noselect">About</a></li
-        ><li><a href="mailto:simplelaw.mail@gmail.com" id="nav-contact" class="nav-link noselect">Contact</a></li>
+        <li><a href="#results-container" id="nav-search" class="nav-link noselect">Search</a></li>
+        <li><a href="#about" id="nav-about" class="nav-link noselect">About</a></li>
+        <li><a href="mailto:simplelaw.mail@gmail.com" id="nav-contact" class="nav-link noselect">Contact</a></li>
       </ul>
     </div>
   </header>
 
   <div class="first-divider">
-    <p><h3 class = "first-divider-text">select a state</h3></p>
+    <p><h3 class = "first-divider-text">choose a state</h3></p>
   </div>
 
 
@@ -223,14 +222,12 @@
 
   <div id="about">
     <h3 class="heading-text">About Simple Law</h3>
-    <h2 class= "heading-subtext">
-    <p>
+    <p class="heading-subtext-bolder">
       Simple Law gives you unbiased access to the laws that affect you.
     </p>
-    <p>
+    <p class="heading-subtext">
       Simple Law is a legal database which aims to create a more informed public by organizing laws into clear, navigable, and comprehensive categories. Simple Law seeks to give individuals the power to easily and independently find the laws which affect their lives without relying on third party interpretation.
     </p>
-  </h2>
     <h3 class="heading-text">Our Team</h3>
     <p id="team">
       <strong>George Mgaloblishvili</strong>, Columbia &amp; Sciences Po '19, <span class="semi-bold">Director</span>
@@ -249,120 +246,8 @@
   <div id="footer-container">
     <footer>
       <span id="copyright">&copy; 2014-2015 SimpleLaw.org</span>
-      <!--span id="admin-login">{{> loginButtons}}</span-->
     </footer>
   </div>
-  <!--div id="admin-panel">
-    <h3 class="heading-text">Admin Panel</h3>
-    <h3 class="heading-text-small">Add a Law</h3>
-    <form id="add-law">
-      <input id="add-title" type="text" name="title" placeholder="Law Title">
-      <input id="add-id" type="text" name="id" placeholder="ID">
-      <input id="add-date" type="text" name="date" placeholder="YYYY-MM-DD">
-      <input id="add-demographic" type="text" name="demographic" placeholder="Demographic">
-      <input id="add-tags" type="text" name="tags" placeholder="Tags (optional)">
-      <select id="add-state" name="state">
-        <option value="">State</option>
-        <option value="AL">Alabama</option>
-        <option value="AK">Alaska</option>
-        <option value="AZ">Arizona</option>
-        <option value="AR">Arkansas</option>
-        <option value="CA">California</option>
-        <option value="CO">Colorado</option>
-        <option value="CT">Connecticut</option>
-        <option value="DE">Delaware</option>
-        <option value="DC">District Of Columbia</option>
-        <option value="FL">Florida</option>
-        <option value="GA">Georgia</option>
-        <option value="HI">Hawaii</option>
-        <option value="ID">Idaho</option>
-        <option value="IL">Illinois</option>
-        <option value="IN">Indiana</option>
-        <option value="IA">Iowa</option>
-        <option value="KS">Kansas</option>
-        <option value="KY">Kentucky</option>
-        <option value="LA">Louisiana</option>
-        <option value="ME">Maine</option>
-        <option value="MD">Maryland</option>
-        <option value="MA">Massachusetts</option>
-        <option value="MI">Michigan</option>
-        <option value="MN">Minnesota</option>
-        <option value="MS">Mississippi</option>
-        <option value="MO">Missouri</option>
-        <option value="MT">Montana</option>
-        <option value="NE">Nebraska</option>
-        <option value="NV">Nevada</option>
-        <option value="NH">New Hampshire</option>
-        <option value="NJ">New Jersey</option>
-        <option value="NM">New Mexico</option>
-        <option value="NY">New York</option>
-        <option value="NC">North Carolina</option>
-        <option value="ND">North Dakota</option>
-        <option value="OH">Ohio</option>
-        <option value="OK">Oklahoma</option>
-        <option value="OR">Oregon</option>
-        <option value="PA">Pennsylvania</option>
-        <option value="RI">Rhode Island</option>
-        <option value="SC">South Carolina</option>
-        <option value="SD">South Dakota</option>
-        <option value="TN">Tennessee</option>
-        <option value="TX">Texas</option>
-        <option value="UT">Utah</option>
-        <option value="VT">Vermont</option>
-        <option value="VA">Virginia</option>
-        <option value="WA">Washington</option>
-        <option value="WV">West Virginia</option>
-        <option value="WI">Wisconsin</option>
-        <option value="WY">Wyoming</option>
-      </select>
-      <br><br>
-      <select multiple id="add-category" name="category" size=10>
-        <option value="agriculture">Agriculture</option>
-        <option value="animals">Animals</option>
-        <option value="banking">Banking</option>
-        <option value="business">Business</option>
-        <option value="civil rights">Civil Rights</option>
-        <option value="commerce">Commerce</option>
-        <option value="construction">Construction</option>
-        <option value="consumable substances">Consumable Substances</option>
-        <option value="criminal law">Criminal Law</option>
-        <option value="disability">Disability</option>
-        <option value="economic">Economic</option>
-        <option value="education">Education</option>
-        <option value="elderly">Elderly</option>
-        <option value="emergency">Emergency</option>
-        <option value="environment">Environment</option>
-        <option value="firearms/weapons">Firearms/Weapons</option>
-        <option value="government">Government</option>
-        <option value="health">Health</option>
-        <option value="housing">Housing</option>
-        <option value="insurance">Insurance</option>
-        <option value="judicial">Judicial</option>
-        <option value="juvenile">Juvenile</option>
-        <option value="labor">Labor</option>
-        <option value="law enforcement">Law Enforcement</option>
-        <option value="licensing">Licensing</option>
-        <option value="military">Military</option>
-        <option value="motor vehicles">Motor Vehicles</option>
-        <option value="municipal">Municipal</option>
-        <option value="non-profit organizations">Non-profit Organizations</option>
-        <option value="recreation">Recreation</option>
-        <option value="safety">Safety</option>
-        <option value="science/technology">Science/Technology</option>
-        <option value="taxes">Taxes</option>
-        <option value="traffic">Traffic</option>
-        <option value="transportation">Transportation</option>
-        <option value="voting">Voting</option>
-      </select>
-
-      Choose multiple: If more than one category is desired, hold control/command to select multiple options.
-      <br><br>
-      <button type="button" id="do-add-law">Add Law</button>
-    </form>
-
-    <h3 class="heading-text-small">Edit a Law</h3>
-
-  </div-->
 
 </body>
 

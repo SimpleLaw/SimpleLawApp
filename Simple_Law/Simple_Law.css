@@ -75,24 +75,28 @@ header {
   color: rgba(255, 255, 255, 1);
   line-height: 33px;
   vertical-align: middle;
-  text-transform: capitalize;
   font-weight: 400;
   letter-spacing: 3px;
   font-size: 36px;
 }
 
 .heading-text {
-  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 3.05em;
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.75em;
   line-height: 40px;
-  font-weight: bolder;
+  font-weight: normal;
   color: #2c3e50;
 }
 
-.heading-subtext {
-  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 1.30em;
+.heading-subtext-bolder {
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.5em;
   font-weight: 600;
+}
+.heading-subtext {
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
 }
 
 .heading-text-small {
@@ -120,7 +124,7 @@ header {
 }
 
 #nav li a {
-    font-family: 'Microsoft Yi Baiti';
+    font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
     text-decoration: none;
     color: rgba(255, 255, 255, 1);
     font-size: 36px;
@@ -179,7 +183,7 @@ header {
 }
 
 .first-divider-text {
-  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 2.4em;
   line-height: 40px;
   font-weight: 300;
@@ -315,7 +319,7 @@ form input {
   margin-left: 60px;
   margin-right: 60px;
   color: #233140;
-  font-size: 1.25em;
+  font-size: 1.4em;
 }
 
 #team {
@@ -367,9 +371,9 @@ footer {
 
 #result-details {
   width: 47.5%;
+  height: 420px;
   float: left;
-  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 2.75em;
+  overflow-y: scroll;
 }
 
 #results-container h3 {
@@ -401,24 +405,6 @@ footer {
 .selected-result {
   background: rgba(0,143,186,0.25);
 }
-
-/*
-#login-dropdown-list {
-  top: -162px;
-  left: -148px;
-}
-
-#signup-link {
-  display: none;
-}
-
-#admin-panel {
-  height: 550px;
-  display: none;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-*/
 
 strong {
   color: #008FBA;
