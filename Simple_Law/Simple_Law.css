@@ -76,8 +76,11 @@ header {
   line-height: 33px;
   vertical-align: middle;
   font-weight: 400;
-  letter-spacing: 3px;
   font-size: 36px;
+}
+
+#title-suffix {
+  font-weight: 300;
 }
 
 .heading-text {
@@ -116,6 +119,7 @@ header {
   float: right;
   line-height: 36px;
   height: 80px;
+  font-weight: 300;
 }
 
 #nav li {
