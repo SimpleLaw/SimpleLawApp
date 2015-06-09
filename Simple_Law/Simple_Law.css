@@ -49,7 +49,7 @@ header {
   vertical-align: middle;
   border-radius: 7.7px;
   overflow: hidden;
-	background: url("logo.png") no-repeat;
+	background: url("altLogo.png") no-repeat;
   background-size: contain;
   cursor: default;
 }
@@ -193,6 +193,7 @@ header {
   top: 39%;
   transform: translateY(-50%);
   margin: 0;
+  cursor: default;
 }
 
 #map-container {
