@@ -87,19 +87,19 @@ header {
 .heading-text {
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 2.25em;
-  font-weight: bold;
+  font-weight: 600;
   color: #2c3e50;
 }
 
 .heading-subtext-bolder {
   font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5em;
-  font-weight: 600;
+  font-weight: 300;
 }
 .heading-subtext {
   font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 1.5em;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .heading-text-small {
@@ -368,7 +368,10 @@ footer {
 
 #result-details {
   width: 47.5%;
-  height: 420px;
+  height: 620px;
+  font-weight: 600;
+  font-size: 1.75em; 
+  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   float: left;
   overflow-y: scroll;
 }

@@ -1,0 +1,14 @@
+﻿Revert "Merge branch 'live'"
+
+This reverts commit 1cc616961ee4da1593f502e259ce27590828d015, reversing
+changes made to 8d3446adc3fb900e5d3d2f6d916a84d9c6e3f573.
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	modified:   Simple_Law/Simple_Law.html
+#
+
