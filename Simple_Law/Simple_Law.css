@@ -368,10 +368,15 @@ footer {
 
 #result-details {
   width: 47.5%;
+  height: 420px;
+  /*
+  Changes not working, temporary fix
+  
   height: 620px;
   font-weight: 600;
   font-size: 1.75em; 
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  */
   float: left;
   overflow-y: scroll;
 }
