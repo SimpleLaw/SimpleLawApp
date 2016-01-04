@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Museo Slab;
+    src: url(./public/Museo_Slab_500_2.otf);
+}
+
 html {
   height: 100%;
   min-width: 980px;
@@ -21,7 +26,6 @@ header {
   -webkit-box-shadow: 0 0 4px rgba(0,53,69,0.25);
   box-shadow:         0 0 4px rgba(0,53,69,0.25);
   background: #000338;
-  vertical-align: middle;
 }
 
 .header-content {
@@ -35,8 +39,8 @@ header {
   padding-left: 50px;
   cursor: default;
   position: relative;
-  height: 55px;
-  top: 21px;
+  height: 60px;
+  top: 10px;
   vertical-align: middle;
   padding-top: 0;
 }
@@ -45,28 +49,29 @@ header {
   display: inline-block;
   position: relative;
   float: left;
-  height: 55px;
-  width: 55px;
-  margin-bottom: 20px;
+  height: 60px;
+  width: 60px;
   vertical-align: middle;
   border-radius: 7.7px;
   overflow: hidden;
-	background: url("simpleLogo.png") no-repeat;
+	background: url("simpleLogoSquare.png") no-repeat;
   background-size: contain;
   cursor: default;
 }
-/*
+
 #simpleLogo span {
   display: inline-block;
   position: absolute;
-  height: 55px;
-  width: 55px;
+  height: 60px;
+  width: 60px;
   vertical-align: middle;
 	background: url("sheen.png") 0px 0px no-repeat;
 	transition-property: all;
 	transition-duration: .5s;
   cursor: default;
-}*/
+  border-radius: 60px;
+}
+
 #simpleLogo:hover span {
   background-position: -80px -80px;
 }
@@ -76,7 +81,7 @@ header {
   margin-left: 15px;
   color: rgba(255, 255, 255, 1);
   letter-spacing: 2px;
-  line-height: 33px;
+  line-height: 60px;
   vertical-align: middle;
   font-weight: 600;
   font-size: 38px;
@@ -87,7 +92,7 @@ header {
 }
 
 .heading-text {
-  font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-family: Museo Slab,'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 2.25em;
   font-weight: 600;
   color: #2c3e50;
@@ -289,8 +294,6 @@ form input {
 }
 
 #about {
-  height: #team;
-
   -moz-box-shadow:    0 0 4px rgba(0,53,69,0.25);
   -webkit-box-shadow: 0 0 4px rgba(0,53,69,0.25);
   box-shadow:         0 0 4px rgba(0,53,69,0.25);
@@ -334,16 +337,13 @@ form input {
 #footer-container {
   position: relative;
   display:inline-block;
-  height: 30px;
   width: 100%;
-  background-color: #F2F2F2;
   box-shadow: 0 0 1px rgba(0,0,0,0.5);
   -moz-box-shadow: 0 0 1px rgba(0,0,0,0.5);
   -webkit-box-shadow: 0 0 1px rgba(0,0,0,0.5);
 }
 
 footer {
-  margin-left: 60px;
   margin-top: 7px;
   vertical-align: middle;
 }
@@ -423,6 +423,26 @@ strong {
   font-size: 1.2rem;
 }
 
+#copyright {
+  padding-left: 60px;
+  line-height: 45px;
+}
+
+#copyright-div {
+  position:  relative;
+  height: 45px;
+  width: 100%;
+  background-color: #F2F2F2;
+}
+
+#disclaimer-div {
+  width: 100%
+  padding-right: 60px;
+}
+
+#disclaimer-div p {
+  padding: 0 60px;
+}
 
 /* FADEIN */
 
