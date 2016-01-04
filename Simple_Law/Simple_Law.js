@@ -178,6 +178,12 @@ if (Meteor.isClient) {
       $("#choose-title").fadeIn(300);
       $("#choose-id").fadeIn(300);
       $("#choose-date").fadeIn(300);
+    },
+    // Show disclaimer
+    "click #disclaimer-link": function () {
+      $("#disclaimer-div").show();
+      $('body, html').animate({scrollTop: $(document).height()}, 1200);
+      $("#disclaimer-div").animate({opacity: 1 }, 600)
     }
 
   });
