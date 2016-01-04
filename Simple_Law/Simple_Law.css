@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Museo Slab;
-    src: url(./public/Museo_Slab_500_2.otf);
+    font-family: 'MuseoSlab';
+    src: url(Museo_Slab_500_2.otf);
 }
 
 html {
@@ -92,7 +92,7 @@ header {
 }
 
 .heading-text {
-  font-family: Museo Slab,'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'MuseoSlab','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   font-size: 2.25em;
   font-weight: 600;
   color: #2c3e50;
