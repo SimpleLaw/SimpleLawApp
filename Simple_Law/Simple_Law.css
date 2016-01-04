@@ -21,6 +21,7 @@ header {
   -webkit-box-shadow: 0 0 4px rgba(0,53,69,0.25);
   box-shadow:         0 0 4px rgba(0,53,69,0.25);
   background: #000338;
+  vertical-align: middle;
 }
 
 .header-content {
@@ -34,7 +35,7 @@ header {
   padding-left: 50px;
   cursor: default;
   position: relative;
-  height: 40px;
+  height: 55px;
   top: 21px;
   vertical-align: middle;
   padding-top: 0;
@@ -44,27 +45,28 @@ header {
   display: inline-block;
   position: relative;
   float: left;
-  height: 40px;
-  width: 40px;
+  height: 55px;
+  width: 55px;
+  margin-bottom: 20px;
   vertical-align: middle;
   border-radius: 7.7px;
   overflow: hidden;
-	background: url("altLogo.png") no-repeat;
+	background: url("simpleLogo.png") no-repeat;
   background-size: contain;
   cursor: default;
 }
-
+/*
 #simpleLogo span {
   display: inline-block;
   position: absolute;
-  height: 40px;
-  width: 40px;
+  height: 55px;
+  width: 55px;
   vertical-align: middle;
 	background: url("sheen.png") 0px 0px no-repeat;
 	transition-property: all;
 	transition-duration: .5s;
   cursor: default;
-}
+}*/
 #simpleLogo:hover span {
   background-position: -80px -80px;
 }
@@ -371,10 +373,10 @@ footer {
   height: 420px;
   /*
   Changes not working, temporary fix
-  
+
   height: 620px;
   font-weight: 600;
-  font-size: 1.75em; 
+  font-size: 1.75em;
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   */
   float: left;
