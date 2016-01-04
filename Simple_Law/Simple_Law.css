@@ -442,6 +442,8 @@ strong {
 
 #disclaimer-div p {
   padding: 0 60px;
+  font-size: 12px;
+  line-height: 1.5;
 }
 
 /* FADEIN */
