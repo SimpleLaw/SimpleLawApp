@@ -7,7 +7,7 @@ function displaySelectedResult(t) {
   $("#result-details").html("<p><span class='semi-bold'>" + law.title + "</span></p><p>" +law.category+"&nbsp;&nbsp;|&nbsp;&nbsp;"+law.state+"  "+law.id+"</p>"+"<p>"+law.text+"</p>");
 
 }
-
+var toggle1 = 1;
 function refreshResultSelection() {
   // Un-Highlight Old Selection
   // There should only be one selected at a time
@@ -180,10 +180,26 @@ if (Meteor.isClient) {
       $("#choose-date").fadeIn(300);
     },
     // Show disclaimer
+//    "click #disclaimer-link": function () {
+//      $("#disclaimer-div").show();
+//      $('body, html').animate({scrollTop: $(document).height()}, 1200);
+//      $("#disclaimer-div").animate({opacity: 1 }, 600)
+//    }
+
     "click #disclaimer-link": function () {
-      $("#disclaimer-div").show();
-      $('body, html').animate({scrollTop: $(document).height()}, 1200);
-      $("#disclaimer-div").animate({opacity: 1 }, 600)
+      if(toggle1 == 1) {
+        toggle1 = 0;
+        $("#disclaimer-div").show();
+        $('body, html').animate({scrollTop: $(document).height()}, 0);
+        $("#disclaimer-div").animate({opacity: 1 }, 0);
+      }
+      else {
+        toggle1 = 1;
+        $("#disclaimer-div").animate({opacity: 0 }, 0);
+        $('body, html').animate({scrollTop: $(document).height()}, 0);
+        $("#disclaimer-div").hide();
+
+      }
     }
 
   });

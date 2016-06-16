@@ -463,6 +463,7 @@ strong {
   height: 45px;
   width: 100%;
   background-color: #F2F2F2;
+  cursor:default;
 }
 
 #disclaimer-div {
@@ -487,6 +488,7 @@ strong {
   height: 45px;
   line-height: 45px;
   padding-right: 60px;
+  cursor: pointer;
 }
 
 /* FADEIN */
