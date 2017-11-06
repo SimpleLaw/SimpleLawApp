@@ -34,8 +34,8 @@ header {
   padding-left: 50px;
   cursor: default;
   position: relative;
-  height: 40px;
-  top: 21px;
+  height: 90px;
+  top: 19px;
   vertical-align: middle;
   padding-top: 0;
 }
@@ -44,12 +44,13 @@ header {
   display: inline-block;
   position: relative;
   float: left;
-  height: 40px;
-  width: 40px;
+  bottom: 8.5px;
+  height: 60px;
+  width: 60px;
   vertical-align: middle;
   border-radius: 7.7px;
   overflow: hidden;
-	background: url("altLogo.png") no-repeat;
+	background: url("Newlogo.png") no-repeat;
   background-size: contain;
   cursor: default;
 }
@@ -371,10 +372,10 @@ footer {
   height: 420px;
   /*
   Changes not working, temporary fix
-  
+
   height: 620px;
   font-weight: 600;
-  font-size: 1.75em; 
+  font-size: 1.75em;
   font-family: 'Microsoft Yi Baiti','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
   */
   float: left;
