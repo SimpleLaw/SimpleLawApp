@@ -54,7 +54,7 @@ header {
   background-size: contain;
   cursor: default;
 }
-
+/* Square sheen needs to be replaced with circular
 #simpleLogo span {
   display: inline-block;
   position: absolute;
@@ -65,7 +65,7 @@ header {
 	transition-property: all;
 	transition-duration: .5s;
   cursor: default;
-}
+}*/
 #simpleLogo:hover span {
   background-position: -80px -80px;
 }
