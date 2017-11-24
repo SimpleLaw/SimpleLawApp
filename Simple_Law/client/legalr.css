@@ -1,0 +1,779 @@
+/* CSS declarations go here */
+
+/* Navbar */
+        .navbar{
+              padding: 0px;
+              box-shadow: 0px 1px 12px #cccccc;
+            }
+            .toggler-container{
+              padding-right: 10px;
+            }
+            .navbar-toggler{
+              padding-left: 8px;
+              padding-right: 8px;
+            }
+
+
+            .navbar-brand_text{
+              font-weight: 700;
+              font-size: 30px;
+              color:  #00004d;
+              padding-left: 10px;
+              font-family: sans-serif;
+
+            }
+
+            .navbar-brand_logo{
+              padding-left: 10px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+            }
+
+            #r {
+              color: #3971a9;
+            }
+
+            #alpha {
+              font-weight: 300;
+              font-size: 13px;
+
+            }
+
+            #navbarTogglerDemo02 a{
+              color: #00004d;
+              text-align: right;
+              padding-right: 10px;
+              font-size: 20px;
+              font-weight: 600;
+              height: auto;
+            }
+
+            #navbarTogglerDemo02 a:hover {
+              color: #3971a9;
+            }
+
+            #navbarTogglerDemo02 a:hover {
+              color: #3971a9;
+            }
+/* Navbar */
+
+
+/* Carousel */
+          .carousel-control-next {
+            padding-left:50px;
+            padding-bottom: 30px;
+          }
+
+                    .carousel-control-prev {
+                      padding-right:5px;
+                      padding-bottom: 30px
+                    }
+
+
+                    .carousel-control-next-icon {
+                        height: 25px;
+                        width: 100%;
+                        background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#8c8c8c' viewBox='0 0 8 8'%3E%3Cpath d='M1.5 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+                    }
+
+
+                    .carousel-control-prev-icon {
+                        height: 25px;
+                        width: 100%;
+                        background-image : url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#8c8c8c' viewBox='0 0 8 8'%3E%3Cpath d='M4 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+                    }
+
+        /*Making prev and next icons responsive */
+                      @media screen and (max-width: 600px) { .carousel-control-prev-icon { height: 26px; width: 100%;} }
+                      @media screen and (max-width: 500px) { .carousel-control-prev-icon { height: 16px; width: 100%;} }
+                      @media screen and (max-width: 450px) { .carousel-control-prev-icon { height: 15px; width: 100%;} }
+                      @media screen and (max-width: 430px) { .carousel-control-prev-icon { height: 14px; width: 100%;} }
+                      @media screen and (max-width: 400px) { .carousel-control-prev-icon { height: 13px; width: 100%;} }
+
+
+                      @media screen and (max-width: 600px) {.carousel-control-next  { padding-left:40px;} }
+                      @media screen and (max-width: 500px) {.carousel-control-next  { padding-left:47px;} }
+                      @media screen and (max-width: 450px) {.carousel-control-next  { padding-left:43px;} }
+                      @media screen and (max-width: 430px) {.carousel-control-next  { padding-left:43px;} }
+                      @media screen and (max-width: 400px) {.carousel-control-next  { padding-left:36px;} }
+                      @media screen and (max-width: 330px) {.carousel-control-next  { padding-left:31px;} }
+        /*Making prev and next icons responsive */
+
+/* Carousel */
+
+
+/* Maps */
+
+          /* US Map */
+          #us_map {
+              max-height: 700px;
+              height: 100%;
+              width: 100%;
+
+              -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+                   -moz-animation: fadein 1s; /* Firefox < 16 */
+                    -ms-animation: fadein 1s; /* Internet Explorer */
+                     -o-animation: fadein 1s; /* Opera < 12.1 */
+                        animation: fadein 1s;
+            }
+              #us_map_section{
+                height:800px;
+            }
+                    #us_map-container {
+                      position: relative;
+                      display:block;
+                      padding-top: 20px;
+                      height: 100%;
+                      width: 100%;
+                    }
+
+                    #us_map-background {
+                      width: 100%;
+                      max-width: 300px;
+                      position: absolute;
+                      overflow: hidden;
+                      top: 0;
+                      left: 0;
+                      z-index: -10;
+                      height: 550px;;
+                    }
+
+
+
+                    #us_map path:hover {
+                      fill: #008FBA;
+                    }
+
+                    #us_map polygon:hover {
+                      fill: #008FBA;
+                    }
+
+                    #us_map path {
+                      fill: #cccccc;
+                    }
+
+                    #us_map polygon {
+                      fill: #cccccc;
+                    }
+
+                    #us_map .active-state {
+                      fill: #008FBA;
+                    }
+          /* US Map */
+
+          /* Canada Map */
+
+          #canada_map {
+                      max-height: 900px;
+                      height: 100%;
+                      width: 100%;
+
+                      -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+                           -moz-animation: fadein 1s; /* Firefox < 16 */
+                            -ms-animation: fadein 1s; /* Internet Explorer */
+                             -o-animation: fadein 1s; /* Opera < 12.1 */
+                                animation: fadein 1s;
+                    }
+                      #canada_map path:hover {
+                        fill: #008FBA;
+                      }
+                      #canada_map path {
+                        fill: #cccccc;
+                      }
+
+                      #canada_map .active-state {
+                        fill: #008FBA;
+                      }
+
+                      #canada_map-background {
+                        width: 100%;
+                        max-width: 300px;
+                        position: absolute;
+                        overflow: hidden;
+                        top: 0;
+                        left: 0;
+                        z-index: -10;
+                        height: 550px;;
+                      }
+
+          /* Canada Map */
+
+        /* EU Mao */
+          #eu_map {
+                    max-height: 900px;
+                    height: 100%;
+                    width: 100%;
+
+                    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+                         -moz-animation: fadein 1s; /* Firefox < 16 */
+                          -ms-animation: fadein 1s; /* Internet Explorer */
+                           -o-animation: fadein 1s; /* Opera < 12.1 */
+                              animation: fadein 1s;
+                  }
+
+                      path{
+                        pointer-events: all;
+                      }
+
+                      #eu_map path {
+                        fill: #cccccc;
+                        stroke-width: 0.7px;
+                      }
+
+                      #eu_map polygon {
+                        fill: #cccccc;
+                      }
+                      #eu_map path:hover {
+                        fill: #008FBA;
+                      }
+
+                      #eu_map polygon:hover {
+                        fill: #008FBA;
+                      }
+
+                      #eu_map .active-state {
+                        fill: #008FBA;
+                      }
+        /* EU Map */
+
+        /* France Mao */
+          #france_map {
+                    max-height: 900px;
+                    height: 100%;
+                    width: 100%;
+
+                    -webkit-animation: fadein 1s; /* Safari, Chrome and Opera > 12.1 */
+                         -moz-animation: fadein 1s; /* Firefox < 16 */
+                          -ms-animation: fadein 1s; /* Internet Explorer */
+                           -o-animation: fadein 1s; /* Opera < 12.1 */
+                              animation: fadein 1s;
+                  }
+
+                  #france_map path {
+                    fill: #cccccc;
+                  }
+
+                  #france_map polygon {
+                    fill: #cccccc;
+                  }
+
+                  #france_map path:hover {
+                    fill: #008FBA;
+                  }
+
+                  #france_map polygon:hover {
+                    fill: #008FBA;
+                  }
+
+                  #france_map .active-state {
+                    fill: #008FBA;
+                  }
+        /*France Map*/
+
+/* Maps */
+
+/* Data Table*/
+
+    /* Law section formating */
+    #results-container {
+      height: 60px;
+      margin-left: 15px;
+      margin-right: 15px;
+      float: left;
+    }
+
+    .results_container_background{
+
+    }
+
+
+    #result-details {
+      width: 47.5%;
+      height: 420px;
+      float: left;
+      overflow-y: scroll;
+    }
+
+    form {
+      height: 11.5px;
+      padding-bottom: 5px;
+    }
+
+    /* Law section formating */
+
+    /* Search Section */
+
+    #search-item {
+      margin-top: 5px;
+      margin-bottom: 5px;
+      vertical-align: middle;
+
+      width: 160px;
+      height: 24px;
+      border-radius: 25px;
+    }
+
+
+
+
+
+    .collapse-advanced-search {
+
+    }
+    @media screen and (max-width: 450px) {.collapse-advanced-search {padding-right: 100px; } }
+    @media screen and (max-width: 380px) {.collapse-advanced-search {padding-right: 78px; } }
+    @media screen and (max-width: 370px) {.collapse-advanced-search {padding-right: 150px; padding-left: 0px;} }
+    @media screen and (max-width: 350px) {.collapse-advanced-search {padding-left: 0px; } }
+
+
+    @media screen and (max-width: 450px) {#advanced-search-item {padding-left: 14px; } }
+    @media screen and (max-width: 380px) {#advanced-search-item {padding-left: 14px; } }
+    @media screen and (max-width: 330px) {#advanced-search-item {padding-left: 12px; } }
+
+#advanced-search-item{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+  text-align: center;
+  width: 160px;
+  height: 24px;
+  border-radius: 25px;
+}
+
+    #data_table_row{
+      width: 49%;
+      padding-left: 17px;
+    }
+
+    #advanced_search_row{
+      width: 60%;
+      padding-left: 17px;
+    }
+    .fa-arrow-right{
+      font-size: 13px;
+      vertical-align: middle;
+      padding-bottom: 1.5px;
+    }
+    #choose-id{
+      width: 169px;
+      height: 25px;
+    }
+
+    #choose-title{
+      width: 170px;
+      height: 25px;
+    }
+
+    #choose-date{
+      width: 180px;
+      height: 25px;
+    }
+
+    form input {
+      vertical-align: middle;
+      height: 11.5px;
+      font-size: 14px;
+    }
+
+
+    #filters {
+      margin-bottom: 30px;
+      margin-left: 45px;
+      float: left;
+
+    }
+
+    #filters_background{
+      align: center;
+    }
+
+    #advanced_search_expand{
+      width: 30px;
+
+    }
+
+    /* Search Section */
+
+.page-divider {
+  height: 1px;
+  width: 100%;
+  background-color: rgba(0,53,69,0.5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.divider-inside {
+  height: 1px;
+  width: 80%;
+  background-color: #007A9F;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#recent-laws {
+  width: calc(47.5% - 40px);
+  height: 400px;
+
+  float: left;
+  margin: 0;
+  overflow-y: scroll;
+}
+
+#recent-laws::-webkit-scrollbar {
+    display: none;
+}
+
+#results-container h3 {
+  margin-bottom: 10px;
+  margin-left: 45px;
+}
+
+#results-divider {
+  width: 5%;
+  height: 420px;
+  float: left;
+}
+
+
+#results-divider-line {
+  width: 2px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,53,69,0.25);
+  position:relative;
+  left:50%;
+  top:10%;
+
+  border-left:1px;
+}
+
+#result-details p {
+  margin-top: 0;
+}
+
+.selected-result {
+  background: rgba(0,143,186,0.25);
+}
+
+
+.table td:hover{
+  background-color: #cccccc;
+}
+
+.fa-file-text {
+  padding-left: 10px;
+}
+
+/* Data Table*/
+
+/* FADEIN */
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Firefox < 16 */
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Internet Explorer */
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Opera < 12.1 */
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+/* What we do */
+.what_we_do-background{
+        background-color:#FFF;
+        height:620px;
+        width:95%;
+        background-size:100% 100%;
+        background-repeat:no-repeat;
+        background: linear-gradient(rgba(0,0,0,.10));
+
+    }
+
+    #what_we_do_container{
+        padding-top: 40px;
+
+
+      }
+      #what_we_do_container h1{
+        font-size: 43px;
+        padding-top: 65px;
+        font-weight: bold;
+        font-family: 'lato', Arial, sans-serif;
+      }
+      .what_we_do-background h1{
+          padding:50px 0px;
+          font-weight:900;
+          z-index: 1;
+      }
+
+      .heading-text {
+        font-family: 'MuseoSlab','Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 2.25em;
+        font-weight: 600;
+        color: #2c3e50;
+      }
+
+      .heading-subtext-bolder {
+        font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 2em;
+        font-weight: 900;
+      }
+      .heading-subtext {
+        font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.5em;
+        font-weight: 300;
+      }
+
+      .heading-text-small {
+        font-family: 'Lato', 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+        font-size: 1.25em;
+        line-height: 40px;
+        font-weight: normal;
+        color: #2c3e50;
+      }
+/* What we do */
+
+
+/* Meet the Team */
+.ourTeam-hedding{
+      background-color:#00004d;
+      height:100px;
+      width:100%;
+      background-size:100% 100%;
+      background-repeat:no-repeat;
+      background: linear-gradient(rgba(0,0,0,.10));
+  }
+  .ourTeam-hedding h1{
+      color:#fff;
+      padding-top: 21px;
+      font-weight:900;
+      z-index: 1;
+  }
+  .ourTeam-box{
+      background-color: #FFFFFF;
+  }
+  .section1{
+      padding: 30px 0px 0px 0px;
+  }
+  .section1 img{
+      padding:5px;
+      border-radius:50%;
+      height:190px;
+      width: 190px;
+  }
+  .section2 h1{
+      font-size:15px;
+      font-weight: 400;
+      margin:0px;
+      display: inline-block;
+      padding: -20px 0px;
+      color: #999999;
+  }
+  .section2 p{
+      display: inline-block;
+      font-size: 17px;
+      font-weight: bold;
+      padding: 10px 15px;
+      padding-bottom: 0px;
+      border-radius: 3px;
+      margin-top: -5px;
+      margin-bottom: 0px;
+  }
+  .section2 span{
+  }
+  .section2 label{
+      padding: 8px 10px 8px 10px;
+      font-weight: normal;
+      margin: 30px 0px 35px 0px;
+      border-radius: 2px;
+  }
+  .section3 p{
+      padding: 0px 15px 0px 15px;
+      font-size:14px;
+      color:#c3c9c9;
+  }
+  .section4{
+      padding:10px 0px 50px 0px;
+  }
+  .columbia img{
+    display: block;
+    padding-bottom:10px;
+    max-width:190px;
+    max-height:80px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+  .ubc img{
+    display: block;
+    max-width:130px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+  .sciencespo img{
+    display: block;
+    max-width:120px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+  .MIT img{
+    display: block;
+    max-width:140px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+
+  .MIT {
+    padding-bottom:50px;
+  }
+
+  .ubc i{
+      padding:3px;
+      border-radius: 2px;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  .columbia i{
+      padding:3px;
+      border-radius: 2px;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  .sciencespo i{
+      padding:3px;
+      border-radius: 2px;
+      font-size: 12px;
+      cursor: pointer;
+  }
+  .section-info{
+  }
+  .section-danger{
+  }
+  .section-info .section1 img{
+      padding:0px;
+  }
+  .section-info .section2 p{
+  }
+
+  .section-danger .section2 p{
+  }
+
+  .section-danger .section1 img{
+      padding:0px;
+  }
+  .section-info .section4 i{
+  }
+  .section-danger .section4 i{
+  }
+
+  .section-info .section2 h1{
+  }
+  .section-danger .section2 h1{
+  }
+/* Meet the Team */
+
+/* footer */
+.footer{
+      background-color:#00004d;
+      height:50px;
+    }
+
+  .footer h1 {
+    color:#fff;
+    padding-top: 17px;
+    font-weight:500;
+    font-size: 14px;
+  }
+
+/* footer */
+
+/* Disclaimer Section */
+#disclaimer_section{
+    height:170px;
+    background-color:#00004d;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+  }
+  #disclaimer_section h1{
+    color:#fff;
+    padding-top: 17px;
+    padding-left:17px;
+    font-weight:500;
+    font-size: 16px;
+  }
+
+  #disclaimer_section p{
+    color:#fff;
+    padding-top: 17px;
+    padding-left: 35px;
+    padding-right: 40px;
+    font-weight:500;
+    font-size: 14px;
+    width: auto;
+  }
+
+  #copyrightleft
+  {
+    float: left;
+  }
+
+  #disclaimerright{
+    float: right;
+  }
+/* Disclaimer Section */
+
+
+           /* Customized Scrollbar */
+
+        /*  #disclaimer_section::-webkit-scrollbar-track
+          {
+          	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+          	border-radius: 10px;
+          	background-color: #F5F5F5;
+          }
+
+          #disclaimer_section::-webkit-scrollbar
+          {
+          	width: 12px;
+          	background-color: #00004d;
+          }
+
+          #disclaimer_section::-webkit-scrollbar-thumb
+          {
+          	border-radius: 10px;
+          	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+          	background-color: #52527a;
+          }
+
+          /* Customized Scrollbar */
